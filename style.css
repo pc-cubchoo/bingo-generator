@@ -1,0 +1,10 @@
+.checkbox-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: repeat(2, 0.25fr);
+}
+
+#awareness-body {
+  max-height: 330px;
+  overflow-y: auto;
+}
